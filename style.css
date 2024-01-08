@@ -11,6 +11,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 
 
 }
@@ -69,9 +70,156 @@
     width: 620px;
     height: 40px;
     border-radius: 2px;
+    justify-content: space-evenly;
 
 
 }
 
+.nav-search:hover{
+    border: solid yellow 1.5px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: rgb(186, 183, 14);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
 
 
+/** box 4**/
+
+.nav-lang{
+    background-color: #0f1111;
+    align-items: center;
+    display: flex;
+}
+
+.search-lang{
+    background-color: #0f1111;
+    color: #f3f3f3;
+    border: none;
+}
+
+
+/**box 5**/
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**box 6**/
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+
+/**second panel**/
+
+
+.panel{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: #f3f3f3;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: none;
+}
+
+.panel-ops{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    border: border-box;
+
+}
+
+.minitv{
+    background-image: url(SWM_400x39_V1._CB585205801_.jpg);
+    width: 400px;
+    height: 39px;
+    border: none;
+}
+
+
+
+/***hero section***/
+
+
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+
+
+/**shop section**/
+
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+
+.box{
+    height: 400px;
+    border: 2px solid black;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+
+.box-image{
+    height: 300px;
+    background-size:cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content p{
+    color: #222f3d;
+}
